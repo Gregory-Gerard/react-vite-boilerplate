@@ -1,9 +1,11 @@
 root = true
 
-[src/**.{ts,json,js,tsx,jsx}]
+[*]
 end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
+
+[src/**.{ts,json,js,tsx,jsx}]
 insert_final_newline = true
 indent_style = space
 indent_size = 2

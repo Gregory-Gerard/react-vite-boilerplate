@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "npx eslint --ext \".js,.tsx,.jsx\" --ignore-path .gitignore --fix src",
+    "lint": "tsc --noEmit --strict true && eslint --ext \".js,.tsx,.jsx\" --ignore-path .gitignore --fix src",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
